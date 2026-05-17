@@ -1,0 +1,11 @@
+id,name,neighbourhood_cleansed,room_type,price,minimum_nights,number_of_reviews,review_scores_rating,bedrooms,beds,accommodates
+97945,"Deluxw-Apartm. with roof terrace",Hadern,"Entire home/apt",105,2,126,4.84,1,1,2
+127383,"City apartment next to Pinakothek",Maxvorstadt,"Entire home/apt",288,3,119,4.84,1,1,2
+170154,"Own floor & bath, parking & breakfast",Sendling-Westpark,"Private room",142,3,590,4.96,1,2,4
+172977,"Beautiful room close to centre",Maxvorstadt,"Private room",120,2,120,4.83,1,1,2
+187359,"Charming apartment near City Center",Neuhausen-Nymphenburg,"Private room",68,2,53,4.9,1,1,2
+189551,"Spacious Loft with Rooftop Terrace in City Center",Schwanthalerhöhe,"Entire home/apt",830,1,459,4.81,2,4,6
+189606,"Nice apartment near river "Isar"",Au-Haidhausen,"Entire home/apt",91,2,282,4.59,0,2,4
+190653,"Pretty and renovated apartment",Ludwigsvorstadt-Isarvorstadt,"Entire home/apt",86,2,242,4.71,1,1,2
+192933,"Artist's Studio Glockenbach area",Ludwigsvorstadt-Isarvorstadt,"Entire home/apt",140,3,110,4.8,1,2,4
+193463,"Munich-Schwabing-  super-central & quiet-room",Maxvorstadt,"Private room",117,3,252,4.79,1,1,1

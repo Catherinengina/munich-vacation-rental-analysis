@@ -1,0 +1,32 @@
+[2026-05-17T13:07:35.799+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-17T13:07:35.847+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: munich_airbnb_etl.extract manual__2026-05-17T13:07:13.112057+00:00 [queued]>
+[2026-05-17T13:07:35.860+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: munich_airbnb_etl.extract manual__2026-05-17T13:07:13.112057+00:00 [queued]>
+[2026-05-17T13:07:35.861+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-05-17T13:07:35.880+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract> on 2026-05-17 13:07:13.112057+00:00
+[2026-05-17T13:07:35.890+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=115) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-05-17T13:07:35.892+0000] {standard_task_runner.py:63} INFO - Started process 117 to run task
+[2026-05-17T13:07:35.893+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'munich_airbnb_etl', 'extract', 'manual__2026-05-17T13:07:13.112057+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/ETL_PIPELINE.py', '--cfg-path', '/tmp/tmpvr_grxl1']
+[2026-05-17T13:07:35.897+0000] {standard_task_runner.py:91} INFO - Job 14: Subtask extract
+[2026-05-17T13:07:35.975+0000] {task_command.py:426} INFO - Running <TaskInstance: munich_airbnb_etl.extract manual__2026-05-17T13:07:13.112057+00:00 [running]> on host 937aa7dccc65
+[2026-05-17T13:07:36.125+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='catherine' AIRFLOW_CTX_DAG_ID='munich_airbnb_etl' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2026-05-17T13:07:13.112057+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-17T13:07:13.112057+00:00'
+[2026-05-17T13:07:36.127+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-17T13:07:36.137+0000] {logging_mixin.py:188} INFO - EXTRACTION COMPLETE!
+[2026-05-17T13:07:36.137+0000] {logging_mixin.py:188} INFO - ----------------------------------------
+[2026-05-17T13:07:36.141+0000] {logging_mixin.py:188} INFO - calendar.csv
+[2026-05-17T13:07:36.142+0000] {logging_mixin.py:188} INFO - calendar.csv.gz
+[2026-05-17T13:07:36.142+0000] {logging_mixin.py:188} INFO - listings.csv
+[2026-05-17T13:07:36.143+0000] {logging_mixin.py:188} INFO - listings.csv.gz
+[2026-05-17T13:07:36.143+0000] {logging_mixin.py:188} INFO - neighbourhoods.csv
+[2026-05-17T13:07:36.144+0000] {logging_mixin.py:188} INFO - neighbourhoods.geojson
+[2026-05-17T13:07:36.144+0000] {logging_mixin.py:188} INFO - reviews.csv
+[2026-05-17T13:07:36.145+0000] {logging_mixin.py:188} INFO - reviews.csv.gz
+[2026-05-17T13:07:36.148+0000] {logging_mixin.py:188} INFO - Total files: 8
+[2026-05-17T13:07:36.149+0000] {logging_mixin.py:188} INFO - ✅ Extract done!
+[2026-05-17T13:07:36.149+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-05-17T13:07:36.151+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-17T13:07:36.166+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=munich_airbnb_etl, task_id=extract, run_id=manual__2026-05-17T13:07:13.112057+00:00, execution_date=20260517T130713, start_date=20260517T130735, end_date=20260517T130736
+[2026-05-17T13:07:36.228+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-05-17T13:07:36.299+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-17T13:07:36.305+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
